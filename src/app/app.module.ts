@@ -2,11 +2,13 @@ import { NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { Page } from '../pages/page/page';
+import { Modal } from '../pages/modal/modal';
 
 @NgModule({
   declarations: [
     MyApp,
-    Page
+    Page,
+    Modal
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -14,7 +16,8 @@ import { Page } from '../pages/page/page';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    Page
+    Page,
+    Modal
   ],
   providers: []
 })
