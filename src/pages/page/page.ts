@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 
 
 @Component({
-  templateUrl: 'hello-ionic.html'
+  templateUrl: 'page.html'
 })
-export class HelloIonicPage {
+export class Page {
   constructor() {
 
   }
